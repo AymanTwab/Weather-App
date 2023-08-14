@@ -16,7 +16,7 @@ $('#search-inp').keyup(function () {
 
 async function weather() {
     const direction = ''
-    const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=44c81ca799fa41bcb79113756230808&q=${x}&days=3`);
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=44c81ca799fa41bcb79113756230808&q=${x}&days=3`);
     const weatherData = await response.json();
     if (weatherData.code !== 1006) {
         showData(weatherData)
