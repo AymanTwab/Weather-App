@@ -1,0 +1,99 @@
+body {
+    background-color: #1e202b;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #1E202B !important;
+}
+
+.hero {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.search-inp::placeholder {
+    color: #323544;
+}
+.search-inp {
+    height: 60px;
+    padding: 0 30px;
+    background-color: #1e202b;
+    color: #bfc1c8 !important;
+    border: none;
+}
+.search-inp:focus {
+    background-color: #1e202b;
+    color: #bfc1c8 !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.today h2 {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.tomorrow h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.degree {
+    position: relative;
+    font-size: 75%;
+    top: -0.55em;
+}
+
+.min-degree {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    color: #bfc1c8;
+}
+
+.today,
+.after-tomorrow {
+    background-color: #323544;
+}
+
+.header,
+.after-tomorrow-header {
+    background-color: #2D303D;
+    color: #bfc1c8;
+    font-size: 14px;
+}
+
+.tomorrow-header {
+    background-color: #222530;
+}
+
+.tomorrow {
+    background-color: #262936;
+}
+
+
+.body .row p {
+    font-size: 18px;
+}
+
+.weather-condition {
+    color: #009ad8;
+}
+
+.wind-data span {
+    font-size: 14px;
+    color: #bfc1c8;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
+.wind-data span img {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #262936;
+}
